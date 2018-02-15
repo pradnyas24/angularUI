@@ -1,0 +1,95 @@
+body
+{
+
+}
+
+
+h1
+{
+    font-family : Courier;
+}
+
+header {
+    position: fixed;
+    top : 0;
+    left: 0;
+    right: 0;
+  }
+
+footer {
+    position: relative;
+    height: 150px;
+    width: 100%;
+    background-color: #333333;
+}
+
+p.copyright {
+    position: absolute;
+    width: 100%;
+    color: #fff;
+    line-height: 30px;
+    font-size: 0.9em;
+    text-align: center;
+    bottom:0;
+}
+
+div
+{
+    width: 100%;
+    font-weight: bold;
+    text-align:center;
+
+}
+
+h2
+{
+    margin-top: 17%;
+    color: rgba(211, 96, 20, 0.808);
+    font-size: 40px;
+    text-align: center;
+    font-family: Comic Sans MS;
+    text-shadow: 2px 2px 4px #db843d;
+}
+
+h3
+{
+    font-family: Apple Chancery, cursive ;
+    color: rgb(47, 128, 0);
+    font-size: 40px;
+}
+
+
+#myDIV {
+    -webkit-animation: mymove 5s infinite; /* Chrome, Safari, Opera */
+    animation: mymove 5s infinite;
+}
+
+/* Chrome, Safari, Opera */
+@-webkit-keyframes mymove {
+    50% {text-shadow: 10px 20px 30px purple;}
+}
+
+/* Standard syntax */
+@keyframes mymove {
+    50% {text-shadow: 10px 20px 30px purple;}
+}
+
+
+
+
+.oabout-section
+{
+    background: beige;
+}
+
+.table-section
+{
+    background : linear-gradient( skyblue ,wheat);
+
+}
+
+.pie-section
+{
+    background : linear-gradient( skyblue ,wheat);
+
+}
